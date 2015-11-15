@@ -1,0 +1,10 @@
+#git init
+git add .
+#git remote add origin https://github.com/xiaoruiguo/DockerBook.git
+#git remote rm origin,origin is alias
+git push -u origin master
+
+$touch spec.txt
+$git add spec.txt
+$git commit-a -m "first commit"
+$git push
